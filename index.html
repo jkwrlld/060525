@@ -44,13 +44,15 @@
         eveniet sapiente odit distinctio sed veritatis nihil.
       </p>
     </header>
-    <main><button>Відкрити модалку</button></main>
+    <main><button data-modal-open>Відкрити модалку</button></main>
     <footer></footer>
   </body>
 
-  <div class="backdrop is-hidden">
+  <div data-modal class="backdrop is-hidden">
     <div class="modal">
+      <button data-modal-close>X</button>
       <h1>Hello world</h1>
     </div>
   </div>
+  <script src="./modal.js"></script>
 </html>

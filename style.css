@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 10000px;
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -31,4 +35,8 @@
   /* text-align: center;
   justify-content: center;
   align-items: center; */
+}
+
+.no-scroll {
+  overflow: hidden;
 }
